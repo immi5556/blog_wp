@@ -11,7 +11,10 @@
 </head>
 <body>
 <div id="PageOutline">
-	<h1>This web site has just been created from <a href="http://www.dotnetpanel.com">DotNetPanel</a> and it is still under construction.</h1>
+	<h1>Redirecting.... To Immanuel's Blog</h1>
 </div>
+    <script>
+        window.location.href = '/Immanuel_Developer'
+    </script>
 </body>
 </html>

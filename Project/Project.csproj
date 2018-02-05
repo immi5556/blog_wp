@@ -43,7 +43,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="wwwroot\default.aspx" />
+    <Content Include="wwwroot\default.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
     <Content Include="wwwroot\Immanuel_Developer\index.php" />
     <Content Include="wwwroot\Immanuel_Developer\license.txt" />
     <Content Include="wwwroot\Immanuel_Developer\readme.html" />
@@ -1605,6 +1607,9 @@
     <Content Include="wwwroot\Immanuel_Developer\wp-signup.php" />
     <Content Include="wwwroot\Immanuel_Developer\wp-trackback.php" />
     <Content Include="wwwroot\Immanuel_Developer\xmlrpc.php" />
+    <Content Include="wwwroot\sitemap.xml">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\cgi-bin\web.config" />
